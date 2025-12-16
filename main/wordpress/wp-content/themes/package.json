@@ -1,14 +1,14 @@
+
 {
   "name": "main",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all --parallel sass sync",
-    "sass": "sass --watch themes/theme-main/sass:themes/theme-main/assets/css --style=compressed",
-    "sync": "browser-sync start --proxy localhost:8000 --files \"themes/theme-main/assets/css/*.css,themes/theme-main/**/*.php,themes/theme-main/**/*.js\" --no-open",
+    "sass": "sass --watch theme-main/sass:theme-main/assets/css --style=compressed",
+    "sync": "browser-sync start --proxy localhost:8000 --files \"theme-main/assets/css/*.css,theme-main/**/*.php,theme-main/**/*.js\" --no-open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
