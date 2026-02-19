@@ -18,7 +18,7 @@ services:
     image: wordpress:latest
     container_name: wp_site-loverFlover
     ports:
-      - "8001:80"
+      - "8000:80"
     environment:
       UPLOAD_LIMIT: 128M
       PHP_MEMORY_LIMIT: 256M
@@ -37,7 +37,7 @@ services:
     image: phpmyadmin/phpmyadmin
     container_name: wp_pma-loverFlover
     ports:
-      - "8081:80"
+      - "8080:80"
     environment:
       PMA_HOST: db
       PMA_USER: wpuser
