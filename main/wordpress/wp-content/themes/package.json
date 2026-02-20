@@ -1,12 +1,11 @@
-
 {
-  "name": "main",
+  "name": "loverFlover",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all --parallel sass sync",
-    "sass": "sass --watch theme-main/sass:theme-main/assets/css --style=compressed",
-    "sync": "browser-sync start --proxy localhost:8000 --files \"theme-main/assets/css/*.css,theme-main/**/*.php,theme-main/**/*.js\" --no-open",
+    "sass": "sass --watch theme-loverFlover/sass:theme-loverFlover/assets/css --style=compressed",
+    "sync": "browser-sync start --proxy localhost:8000 --files \"theme-loverFlover/assets/css/*.css,theme-loverFlover/**/*.php,theme-loverFlover/**/*.js\" --no-open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,9 +18,5 @@
     "sass": "^1.89.1"
   }
 }
-
-
-
-
 
 
