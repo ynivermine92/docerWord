@@ -30,7 +30,6 @@ services:
       WORDPRESS_DEBUG: 1 
     volumes:
       - ./wordpress/wp-content/themes/theme-loverFlover:/var/www/html/wp-content/themes/theme-loverFlover
-      - ./wordpress/wp-content/plugins:/var/www/html/wp-content/plugins
       - ./docker/php/uploads.ini:/usr/local/etc/php/conf.d/90-uploads.ini:ro
       
 
