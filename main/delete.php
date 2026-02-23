@@ -40,8 +40,8 @@
 
 5 редактировать плагин 
   1 обезательно делать !!!!!!!!backup!!!!!!!!
-  2 подключаем плагин в  Валюум  ( - ./wordpress/wp-content/plugins/product-filter/:/var/www/html/wp-content/plugins/product-filter  )  место  product-filter мо названия плагина 
+  2 подключаем плагин в  Валюум  ( - ./wordpress/wp-content/plugins/product-filter/:/var/www/html/wp-content/plugins/product-filter  )  место  product-filter моё названия плагина 
   3 docker compose up -d
-  4 скидуем  код плагина вручную  папку плагины
+  4 скидуем  код плагина вручную в  папку плагина переносим  (папку плагина переносим в папку плагина теммы)
 
 
